@@ -88,7 +88,7 @@ def button(msg,x,y,w,h,ic,ac,action=None):
 
 def quitgame():
     pygame.quit()
-    quit()
+    exit()
 
 def game_intro():
     intro = True
